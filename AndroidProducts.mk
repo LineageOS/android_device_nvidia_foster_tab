@@ -17,3 +17,11 @@
 PRODUCT_MAKEFILES := \
     $(LOCAL_DIR)/full_foster_tab.mk \
     $(LOCAL_DIR)/lineage_foster_tab.mk
+
+COMMON_LUNCH_CHOICES := \
+    full_foster_tab-eng \
+    full_foster_tab-user \
+    full_foster_tab-userdebug \
+    lineage_foster_tab-eng \
+    lineage_foster_tab-user \
+    lineage_foster_tab-userdebug
