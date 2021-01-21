@@ -18,7 +18,7 @@
 $(call inherit-product, vendor/lineage/config/common_full_tablet_wifionly.mk)
 
 # Inherit device configuration for foster_tab.
-$(call inherit-product, device/nvidia/foster/lineage.mk)
+include device/nvidia/foster/lineage.mk
 $(call inherit-product, device/nvidia/foster_tab/full_foster_tab.mk)
 
 PRODUCT_NAME := lineage_foster_tab
